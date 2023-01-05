@@ -7,7 +7,7 @@ After obtaining the predictions, it was important to make sure that all the pred
 
 ### What was the top ranked model that performed?
 The top ranked model as denoted by the Root Mean Squared Error Merric (RMSE) is the Weighted_Ensemble_L3 model, as shown in the leaderboard histogram below. It was the top model across all the different trainings made (raw submission, feature engineered and hyperparameter tuned submissions). 
-![leaderboard.PNG](img/leaderboard.PNG)
+![leaderboard.png](img/leaderboard.png)
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -45,6 +45,7 @@ In summary, this educational project was designed to assist learners getting to 
 1. Good quality data with proper splitting of training and testing.
 2. Proper Exploratory data analysis and feature engineering techniques.
 3. Training and fitting the data using muliple models (such as, Linear regression, tree based, random forest, XGBOOST, Autogluon).
-4. Using proper validation and model scoring metrics 
+4. Using proper validation and model scoring metrics.
+
 All of the previous steps are to be performed in an iterative way with lots of patience and dedication until achieving satisfying validation and scoring. 
 
